@@ -3,8 +3,8 @@ require 'sinatra'
 require 'json'
 require 'openssl'
 
-set :port, 8080
-set :bind, '0.0.0.0'
+# set :port, 8080
+# set :bind, '0.0.0.0'
 
 get '/services' do
   content_type :text
